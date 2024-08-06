@@ -1,0 +1,58 @@
+{
+  "header": {
+    "title": "it's me",
+    "logo": "images/logo.png"
+  },
+  "navigation": {
+    "links": [
+      {"label": "Home", "url": "#home"},
+      {"label": "Projects", "url": "#projects"},
+      {"label": "About Me", "url": "#about"},
+      {"label": "Contact", "url": "#contact"}
+    ]
+  },
+  "projects": [
+    {
+      "title": "Project 1",
+      "description": "Description of Project 1",
+      "image": "images/project1.jpg",
+      "url": "https://sumit2011.github.io/"
+    },
+    {
+      "title": "Project 2",
+      "description": "Description of Project 2",
+      "image": "images/project2.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Project 3",
+      "description": "Description of Project 2",
+      "image": "images/project3.jpg",
+      "url": "#"
+    },
+    {
+      "title": "Project 4",
+      "description": "Description of Project 2",
+      "image": "images/project2.jpg",
+      "url": "#"
+    }
+  ],
+
+  "contact": {
+    "email": "example@example.com",
+    "phone": "123-456-7890"
+  },
+
+  "about": [
+    {
+    "title": "Web developer and competitive programmer",
+    "description": "About me section text goes here.Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis totam minima suscipit quas delectus atque voluptates pariatur? Minima veniam distinctio similique. Iusto quam voluptas deleniti, mollitia placeat cum ab velit?",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Veritatis",
+    "name": "sumit kumar",
+    "age": "23 years",
+    "email": "sumit2011kmr@gmail.com",
+    "address": "Bhagalpur, Bihar",
+    "image": "images/bg.png"
+    }
+  ]
+}
