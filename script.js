@@ -21,28 +21,7 @@ fetch('data.json')
     document.getElementById('projects').innerHTML = projects.join('');
 
     // Populate about
-    document.getElementById('about').innerHTML = `<div className="about_contents">
-                        <section className="imageSection">
-                            <img src={about.image} alt="image" />
-                        </section>
-
-                        <section className="infoSection">
-                            {/* <h1>About Me</h1> */}
-                            <h2>${about.title}</h2>
-                            <p>${about.description}</p>
-                            <p>${about.subtitle}</p>
-                            <div className="personalInfo">
-                                <div><span>Name:</span><span>${about.name}</span></div>
-                                <div><span>Age:</span><span>${about.age}</span></div>
-                                <div><span>Email:</span><span>${about.email}</span></div>
-                                <div><span>Address:</span><span>${about.address}</span></div>
-
-                            </div>
-                            <div className="button">
-                                <button>Download CV</button>
-                            </div>
-                        </section>
-                    </div>`;
+    document.getElementById('about').innerHTML = ``;
 
     // Populate contact
     document.getElementById('contact').innerHTML = `<p>Email: ${data.contact.email}</p><p>Phone: ${data.contact.phone}</p>`;
