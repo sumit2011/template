@@ -1,0 +1,122 @@
+{
+  "header": {
+    "title": "it's me",
+    "logo": "images/logo.png"
+  },
+  "navigation": {
+    "links": [
+      {"label": "Home", "url": "#home"},
+      {"label": "Projects", "url": "#projects"},
+      {"label": "About Me", "url": "#about"},
+      {"label": "Contact", "url": "#contact"}
+    ]
+  },
+
+  "skills": [
+    {
+      "title": "Programming",
+      "description": "solved 500+ problems on GFG",
+      "icon": "images/ui-design.png",
+      "url": "https://sumit2011.github.io/"
+    },
+     {
+      "title": "WEB Design",
+      "description": "you can write your content here",
+      "icon": "images/website-design.png",
+      "url": "https://sumit2011.github.io/"
+    },
+    {
+      "title": "Blog Writer",
+      "description": "you can write your content here",
+      "icon": "images/app-design.png",
+      "url": "https://sumit2011.github.io/"
+    }
+
+  ],
+
+  "projects": [
+    {
+      "title": "Underwater Object Detection",
+      "description": "I have created a webapp which detect the objects of underwater images by using yolov8 model.",
+      "image": "images/project1.jpg",
+      "tourl": "https://github.com/sumit2011/underwater-object-detection",
+      "codesource": "https://github.com/sumit2011/underwater-object-detection",
+      "techlist": "flask js css html"
+    },
+    {
+      "title": "Annotation Tool",
+      "description": "It's a online annotation tool which allows user to annotate image online form anywhere at anytime.",
+      "image": "images/project2.jpg",
+      "tourl": "https://github.com/sumit2011/Annotation-tool",
+      "codesource": "https://github.com/sumit2011/Annotation-tool",
+      "techlist": "flask html css js"
+    },
+    {
+      "title": "Unoji Store",
+      "description": "It's a online ecommerse store. which is created and managed by me.",
+      "image": "images/project3.jpg",
+      "tourl": "https://unojistore.netlify.app/",
+      "codesource": "https://unojistore.netlify.app/",
+      "techlist": "html css js"
+    },
+    {
+      "title": "Dsa Blogs",
+      "description": "Description of Project 2",
+      "image": "images/project2.jpg",
+      "tourl": "https://sumit2011.github.io/",
+      "codesource": "https://sumit2011.github.io/",
+      "techlist" : "hugo pwa"
+    },
+    {
+      "title": "Security Blogs",
+      "description": "Description of Project 2",
+      "image": "images/project2.jpg",
+      "tourl": "https://secblogs.netlify.app",
+      "codesource": "https://github.com/sumit2011/secblogs",
+      "techlist": "hugo pwa"
+    },
+    {
+      "title": "Tic-Tac-Toe",
+      "description": "It's a simple tictactoe game.",
+      "image": "images/project2.jpg",
+      "tourl": "https://tict4ctoe.netlify.app",
+      "codesource": "https://github.com/sumit2011/tictactoe-darkcircle",
+      "techlist": "html js css pwa"
+    },
+    {
+      "title": "Sn4ke Game",
+      "description": "Description of Project 2",
+      "image": "images/project2.jpg",
+      "tourl": "https://sn4k3.netlify.app",
+      "codesource": "https://github.com/sumit2011/Sn4ke-Game",
+      "techlist": "html css js pwa"
+    },
+    {
+      "title": "Portfolio",
+      "description": "Description of Project 2",
+      "image": "images/project2.jpg",
+      "tourl": "https://sumit2011.netlify.app",
+      "codesource": "https://github.com/sumit2011/Sn4ke-Game",
+      "techlist": "react html css json"
+    }
+  ],
+
+
+  "about": [
+    {
+    "title": "Web developer and competitive programmer",
+    "description": "Hii, my name is Sumit Kumar, i am currently pursuing B.Tech at NIT Srinagar. I'm interested in cybersecurity and competitive programming and love to solve problems. I'm also a part of z3r0d4y(a cybersecurity club at NIT Srinagar).",
+    "subtitle": "web-app developer and competitive programmer",
+    "name": "sumit kumar",
+    "age": "23 years",
+    "email": "sumit2011kmr@gmail.com",
+    "address": "Bhagalpur, Bihar",
+    "image": "images/bg.jpeg"
+    }
+  ],
+
+  "contact": {
+    "email": "example@example.com",
+    "phone": "123-456-7890"
+  }
+}

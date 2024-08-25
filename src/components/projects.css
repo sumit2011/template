@@ -1,0 +1,177 @@
+ /* Style for projects section */
+
+  
+  #works {
+    min-height: calc(100vh - 4rem) ;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+.projectPageTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectPageDesc {
+   padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.workstitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+
+}
+
+.worksdesc {
+  font-weight: 300;
+  font-size: 1rem;
+  max-width: 45rem;
+}
+
+.projects {
+  display: flex;
+  /* align-items: center;  */
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+  .projectcard {
+    height: 20rem;
+    width: 18rem;
+    /* height: flex; */
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+  }
+
+.foldericon {
+  object-fit: cover;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 0rem;
+  /* margin-top: 0rem; */
+}
+
+
+.projecttitle {
+  text-align: left;
+  /* color: aqua; */
+  margin-left: 0rem;
+
+  /* margin-left: 2rem; */
+  /* font-weight: 200; */
+}
+
+.projectcontent {
+  text-align: left;
+  font-weight: 200;
+}
+
+.workBtn {
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.skillbarimg{
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+}
+
+.icons {
+  align-items: right;
+  /* margin-right: 0rem; */
+  justify-content: space-between;
+  
+  
+}
+.giticonimg {
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+  
+}
+
+.linkimg{
+  object-fit: cover;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0rem;
+}
+
+/* .techlist {
+  display: flex;
+  flex-wrap: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-weight: 200;
+  color: aquamarine;
+  
+  
+} */
+
+.cardheader {
+  height: 15.5rem;
+}
+
+.test{
+  
+  display: flex;
+  /* margin-top: 2rem; */
+  font-weight: 200;
+  color: aqua;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+
+}
+
+.footersec {
+  display: flex;
+  /* text-align: right; */
+  word-spacing: 10px;
+  justify-content: center;  
+  
+
+}
+
+
+
+@media  screen and (max-width: 720px) {
+  .projectPageTitle {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:585px) {
+  .worksImg {
+    height: 40vw;
+  }
+
+
+}
